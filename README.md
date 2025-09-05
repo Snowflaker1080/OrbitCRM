@@ -119,7 +119,7 @@ Built with Node.js, Express, and MongoDB, the API provides secure endpoints for 
 ### 1. Clone Repository
 
 bash
-git clone https://github.com/your-username/orbit-crm-back-end.git
+git clone CRM-express-api-back-end
 cd orbit-crm-back-end
 
 2. Install Dependencies
