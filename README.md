@@ -43,7 +43,7 @@ It helps you organise your cohorts, friend groups, and professional networks, an
 ### 1. Clone Repository
 
 bash
-git clone https://github.com/your-username/orbit-crm-front-end.git
+git clone CRM-react-front-end
 cd orbit-crm-front-end
 
 ### 2. Install Dependencies
