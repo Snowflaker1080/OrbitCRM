@@ -10,7 +10,7 @@ It helps you organise your cohorts, friend groups, and professional networks, an
 ## 🌐 Live Demo
 
 - **Deployed App**: [Orbit CRM Live](https://your-deployed-app-link.com)  
-- **Back-End Repo**: [Orbit CRM API](https://github.com/your-username/orbit-crm-back-end)  
+- **Back-End Repo**: [Orbit CRM API](https://github.com/Snowflaker1080/OrbitCRM/tree/main/CRM-express-api-back-end)  
 - **Planning Materials**: [Trello / Figma / ERD links]
 
 ---
