@@ -86,7 +86,7 @@ Built with Node.js, Express, and MongoDB, the API provides secure endpoints for 
 
 ## 🔗 Related
 
-- **Front-End Repo**: [Orbit CRM Client](https://github.com/your-username/orbit-crm-front-end)
+- **Front-End Repo**: [Orbit CRM Client](CRM-react-front-end)
 
 ---
 
