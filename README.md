@@ -1,6 +1,6 @@
 # Orbit CRM – Front-End
 
-![Orbit CRM Logo](./src/assets/orbit-logo.png)
+![Orbit CRM Logo](./src/assets/Orbit CRM Logo.png)
 
 Orbit CRM is a personal CRM web app built with React.  
 It helps you organise your cohorts, friend groups, and professional networks, and keep track of personal connections.
