@@ -10,7 +10,7 @@ It helps you organise your cohorts, friend groups, and professional networks, an
 ## 🌐 Live Demo
 
 - **Deployed App**: [Orbit CRM Live](https://your-deployed-app-link.com)  
-- **Back-End Repo**: [Orbit CRM API](https://github.com/your-username/orbit-crm-back-end)  
+- **Back-End Repo**: [Orbit CRM API](https://github.com/Snowflaker1080/OrbitCRM/tree/main/CRM-express-api-back-end)  
 - **Planning Materials**: [Trello / Figma / ERD links]
 
 ---
@@ -43,7 +43,7 @@ It helps you organise your cohorts, friend groups, and professional networks, an
 ### 1. Clone Repository
 
 bash
-git clone https://github.com/your-username/orbit-crm-front-end.git
+git clone CRM-react-front-end
 cd orbit-crm-front-end
 
 ### 2. Install Dependencies
@@ -86,7 +86,7 @@ Built with Node.js, Express, and MongoDB, the API provides secure endpoints for 
 
 ## 🔗 Related
 
-- **Front-End Repo**: [Orbit CRM Client](https://github.com/your-username/orbit-crm-front-end)
+- **Front-End Repo**: [Orbit CRM Client](CRM-react-front-end)
 
 ---
 
@@ -119,7 +119,7 @@ Built with Node.js, Express, and MongoDB, the API provides secure endpoints for 
 ### 1. Clone Repository
 
 bash
-git clone https://github.com/your-username/orbit-crm-back-end.git
+git clone CRM-express-api-back-end
 cd orbit-crm-back-end
 
 2. Install Dependencies
