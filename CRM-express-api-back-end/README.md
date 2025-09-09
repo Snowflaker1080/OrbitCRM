@@ -43,12 +43,12 @@ bash
 git clone CRM-express-api-back-end
 cd orbit-crm-back-end
 
-2. Install Dependencies
+### 2. Install Dependencies
    
 	```bash
 	npm install
 	
-4. Environment Variables
+### 3. Environment Variables
    Create .env in the project root:
 
  	```bash
@@ -56,7 +56,7 @@ cd orbit-crm-back-end
 	MONGODB_URI=mongodb://localhost:27017/OrbitCRMDatabase
 	JWT_SECRET=your-super-secret-key
 
-6. Start API Server
+### 4. Start API Server
 
  	```bash
    	npm run dev   # development (nodemon)
@@ -64,13 +64,17 @@ cd orbit-crm-back-end
 
   Runs on http://localhost:3000.
 
-## Example API Routes
+## API Reference
 
-- POST /api/auth/sign-up → Create new user
-- POST /api/auth/sign-in → Authenticate user and return JWT
-- GET /api/users/me → Get current user profile
-- POST /api/groups → Create a group
-- POST /api/contacts → Create a contact
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | /api/auth/sign-up | Register a new user |
+| POST   | /api/auth/sign-in | Authenticate user and return JWT |
+| GET    | /api/users/me     | Get current authenticated user |
+| POST   | /api/groups       | Create a group |
+| GET    | /api/groups       | Get all groups |
+| POST   | /api/contacts     | Create a contact |
+| GET    | /api/contacts     | Get all contacts |
 
 ## Authentication & Authorisation
 
@@ -81,3 +85,4 @@ cd orbit-crm-back-end
 ## Licence
 
 MIT Licence
+
