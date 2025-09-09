@@ -7,7 +7,7 @@ Built with Node.js, Express, and MongoDB, the API provides secure endpoints for 
 
 ## Related
 
-- **Front-End Repo**: [Orbit CRM Client](CRM-react-front-end)
+- **Front-End Repo**: [Orbit CRM Client]([CRM-react-front-end](https://github.com/Snowflaker1080/OrbitCRM/tree/main/CRM-react-front-end))
 
 ## Features
 
@@ -29,19 +29,13 @@ Built with Node.js, Express, and MongoDB, the API provides secure endpoints for 
 - bcrypt  
 - cors, morgan, dotenv  
 
-## Next Steps
-
-- Mobile app version (React Native)  
-- Calendar integration for reminders  
-- Duplicate contact merge  
-
 ## Getting Started
 
 ### 1. Clone Repository
 
-bash
-git clone CRM-express-api-back-end
-cd orbit-crm-back-end
+	```bash
+	git clone https://github.com/Snowflaker1080/OrbitCRM.git
+	cd CRM-express-api-back-end
 
 ### 2. Install Dependencies
    
@@ -66,23 +60,36 @@ cd orbit-crm-back-end
 
 ## API Reference
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST   | /api/auth/sign-up | Register a new user |
-| POST   | /api/auth/sign-in | Authenticate user and return JWT |
-| GET    | /api/users/me     | Get current authenticated user |
-| POST   | /api/groups       | Create a group |
-| GET    | /api/groups       | Get all groups |
-| POST   | /api/contacts     | Create a contact |
-| GET    | /api/contacts     | Get all contacts |
+| Method | Endpoint              | Description |
+|--------|-----------------------|-------------|
+| POST   | `/api/auth/sign-up`   | Register a new user |
+| POST   | `/api/auth/sign-in`   | Authenticate user and return JWT |
+| GET    | `/api/users/me`       | Get current authenticated user |
+| POST   | `/api/groups`         | Create a new group |
+| GET    | `/api/groups`         | Get all groups |
+| GET    | `/api/groups/:id`     | Get a single group by ID |
+| PUT    | `/api/groups/:id`     | Update a group |
+| DELETE | `/api/groups/:id`     | Delete a group |
+| POST   | `/api/contacts`       | Create a new contact |
+| GET    | `/api/contacts`       | Get all contacts |
+| GET    | `/api/contacts/:id`   | Get a single contact by ID |
+| PUT    | `/api/contacts/:id`   | Update a contact |
+| DELETE | `/api/contacts/:id`   | Delete a contact |
 
 ## Authentication & Authorisation
 
-  Guests: only sign up / sign in
-  Signed-in users: can create and manage their own groups and contacts
-  Users cannot edit or delete data created by others
+- Guests: only sign up / sign in
+- Signed-in users: can create and manage their own groups and contacts
+- Users cannot edit or delete data created by others
+
+## Next Steps
+
+- Mobile app version (React Native)  
+- Calendar integration for reminders  
+- Duplicate contact merge  
 
 ## Licence
 
 MIT Licence
+
 
