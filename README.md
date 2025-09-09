@@ -55,11 +55,10 @@ Create .env in the project root:
 Runs on http://localhost:5173.
 
 Attributions
-- Icons: Lucide
-- React & Vite docs
+	•	Icons: Lucide
+	•	React & Vite docs
 
 Next Steps
-- Mobile app version (React Native)
-- Calendar integration for reminders
-- Duplicate contact merge
-
+	•	Mobile app version (React Native)
+	•	Calendar integration for reminders
+	•	Duplicate contact merge
