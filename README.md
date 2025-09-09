@@ -59,7 +59,7 @@ Attributions
 	•	React & Vite docs
 
 Next Steps
-	•	Mobile app version (React Native)
-	•	Calendar integration for reminders
-	•	Duplicate contact merge
+	- Mobile app version (React Native)
+	- Calendar integration for reminders
+	- Duplicate contact merge
 
